@@ -1,7 +1,7 @@
 <?php
-// Verifica se o formulário foi enviado
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-	// Coleta os dados do formulário
+if ($_SERVER["REQUEST_METHOD"] == "POST") 
+{
+	
 	$nome = $_POST["nome"];
 	$endereco = $_POST["endereco"];
 	$cep = $_POST["cep"];
